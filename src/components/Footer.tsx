@@ -1,12 +1,10 @@
-import Image from 'next/image';
-
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-section">
           <div className="footer-logo-container">
-            <Image src="/arez-logo.png" alt="AREZ REAL ESTATE Logo" width={200} height={80} className="footer-logo-image" />
+            <img src="/arez/arez-logo.png" alt="AREZ REAL ESTATE Logo" width="200" height="80" className="footer-logo-image" />
             <div className="footer-logo">AREZ REAL ESTATE</div>
           </div>
           <p className="footer-text">
