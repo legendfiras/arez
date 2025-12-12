@@ -6,6 +6,8 @@ const nextConfig = {
     domains: [],
   },
   // Removed output: 'export' to enable API routes
+  // Add basePath if your GitHub Pages URL is not the root
+  // basePath: '/arez', // Uncomment and adjust if needed
 }
 
 module.exports = nextConfig
