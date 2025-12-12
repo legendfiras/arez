@@ -83,3 +83,4 @@ To learn more about the technologies used in this project:
 - Improved image optimization with sharp package
 - Configured proper GitHub Pages deployment settings
 - Switched to plain img tags with absolute paths for reliable logo display
+- Simplified logo paths to use relative paths for GitHub Pages compatibility
