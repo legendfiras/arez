@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-section">
           <div className="footer-logo-container">
-            <img src="/arez/arez-logo.png" alt="AREZ REAL ESTATE Logo" width="200" height="80" className="footer-logo-image" />
+            <img src="logo.png" alt="AREZ REAL ESTATE Logo" width="200" height="80" className="footer-logo-image" />
             <div className="footer-logo">AREZ REAL ESTATE</div>
           </div>
           <p className="footer-text">

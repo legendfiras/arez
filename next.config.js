@@ -6,9 +6,6 @@ const nextConfig = {
     domains: [],
     unoptimized: true, // Disable image optimization for static export
   },
-  // Set basePath and assetPrefix for GitHub Pages
-  basePath: '/arez',
-  assetPrefix: '/arez/',
   // Enable static exports for GitHub Pages
   output: 'export',
 }
