@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const links = [
   { label: 'Home', href: '/' },
@@ -16,12 +17,13 @@ export default function Navbar() {
       <div className="nav-inner-full">
         <div className="nav-logo-container">
           <Link href="/" className="nav-logo">
-            <img 
-              src="/arez/logo.png" 
+            <Image 
+              src="/logo.png" 
               alt="AREZ REAL ESTATE Logo" 
-              width="150" 
-              height="60" 
+              width={150} 
+              height={60} 
               className="nav-logo-image"
+              priority={true}
             />
           </Link>
         </div>

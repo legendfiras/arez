@@ -8,7 +8,8 @@ const nextConfig = {
   // Set basePath and assetPrefix for GitHub Pages
   basePath: '/arez',
   assetPrefix: '/arez/',
-  // Removed output: 'export' to enable API routes
+  // Enable static exports for GitHub Pages
+  output: 'export',
 }
 
 module.exports = nextConfig
