@@ -6,8 +6,7 @@ const nextConfig = {
     domains: [],
     unoptimized: true, // Disable image optimization for static export
   },
-  // Enable static exports for GitHub Pages
-  output: 'export',
+  // Removed output: 'export' to enable API routes
 }
 
 module.exports = nextConfig
