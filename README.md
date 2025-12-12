@@ -79,5 +79,6 @@ To learn more about the technologies used in this project:
 ## Recent Updates
 
 - Updated contact page to remove form section
-- Fixed logo display issues
+- Fixed logo display issues with correct paths
 - Improved image optimization with sharp package
+- Configured proper GitHub Pages deployment settings
