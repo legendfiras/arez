@@ -45,30 +45,23 @@ npm run build
 
 ### Deployment
 
-This project is configured for deployment to GitHub Pages using GitHub Actions. The workflow is defined in `.github/workflows/deploy.yml`.
+This project can be deployed to various platforms including Vercel, Netlify, or GitHub Pages.
 
-For GitHub Pages deployment, the project uses:
-- Static export configuration in `next.config.js`
-- Image optimization disabled for static export
-- GitHub Actions workflow that builds and deploys the static site
-
-For local development, revert the changes in `next.config.js`:
-- Remove `output: 'export'`
-- Remove `unoptimized: true`
+For GitHub Pages deployment, you can use the workflow defined in `.github/workflows/deploy.yml`.
 
 ## Project Structure
 
 ```
+├── pages/            # Next.js pages
+├── public/           # Static assets
 ├── src/
-│   ├── components/     # React components
-│   ├── lib/           # Utility functions
-│   ├── pages/         # Next.js pages (in src directory)
-│   ├── styles/        # Global styles
-│   └── types/         # TypeScript types
-├── public/            # Static assets
-├── .github/workflows/ # GitHub Actions workflows
-├── next.config.js     # Next.js configuration
-└── tsconfig.json      # TypeScript configuration
+│   ├── components/   # React components
+│   ├── lib/          # Utility functions
+│   ├── styles/       # Global styles
+│   └── types/        # TypeScript types
+├── .github/workflows/# GitHub Actions workflows
+├── next.config.js    # Next.js configuration
+└── tsconfig.json     # TypeScript configuration
 ```
 
 ## Environment Variables
