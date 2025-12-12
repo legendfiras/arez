@@ -6,6 +6,8 @@ const nextConfig = {
     domains: [],
     unoptimized: true, // Disable image optimization for static export
   },
+  // Set basePath for GitHub Pages
+  basePath: '/arez',
   // Enable static exports for GitHub Pages
   output: 'export',
 }
