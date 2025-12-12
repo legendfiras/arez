@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: [],
+    unoptimized: true, // Disable image optimization for static export
   },
   // Set basePath and assetPrefix for GitHub Pages
   basePath: '/arez',
