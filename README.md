@@ -85,3 +85,4 @@ To learn more about the technologies used in this project:
 - Switched to plain img tags with absolute paths for reliable logo display
 - Simplified logo paths to use relative paths for GitHub Pages compatibility
 - Fixed logo paths to include basePath prefix for consistent navigation
+- Improved mobile navbar layout and logo sizing for better responsiveness
