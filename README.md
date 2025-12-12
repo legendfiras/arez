@@ -84,3 +84,4 @@ To learn more about the technologies used in this project:
 - Configured proper GitHub Pages deployment settings
 - Switched to plain img tags with absolute paths for reliable logo display
 - Simplified logo paths to use relative paths for GitHub Pages compatibility
+- Fixed logo paths to include basePath prefix for consistent navigation
