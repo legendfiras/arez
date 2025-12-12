@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="nav-logo-container">
           <Link href="/" className="nav-logo">
             <img 
-              src="logo.png" 
+              src="/arez/logo.png" 
               alt="AREZ REAL ESTATE Logo" 
               width="150" 
               height="60" 
