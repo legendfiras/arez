@@ -6,7 +6,7 @@ A modern real estate platform built with Next.js.
 
 - Responsive design for all device sizes
 - Property listings and collaborations
-- Contact form with social media integration
+- Contact methods with social media integration
 - Admin dashboard
 
 ## Getting Started
@@ -75,3 +75,9 @@ To learn more about the technologies used in this project:
 - [Next.js Documentation](https://nextjs.org/docs)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
+## Recent Updates
+
+- Updated contact page to remove form section
+- Fixed logo display issues
+- Improved image optimization with sharp package
