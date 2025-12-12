@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     domains: [],
   },
-  // Set basePath for GitHub Pages
+  // Set basePath and assetPrefix for GitHub Pages
   basePath: '/arez',
+  assetPrefix: '/arez/',
   // Removed output: 'export' to enable API routes
 }
 
